@@ -1,0 +1,28 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  // Note, these settings should match lint-staged settings!
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": false,
+  "prettier.trailingComma": "es5",
+  "prettier.bracketSpacing": false,
+  "prettier.jsxBracketSameLine": false,
+  "prettier.arrowParens": "avoid",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.tabSize": 2,
+  "editor.wordWrapColumn": 100,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [100],
+  "files.exclude": {
+    "**/.editorconfig": true,
+    "**/.prettierrc": true,
+    "**/.vscode": true,
+    "**/LICENSE": true,
+    "**/node_modules": true,
+    "**/yarn.lock": true
+  }
+  // "javascript.validate.enable": false // enable for flow
+}
