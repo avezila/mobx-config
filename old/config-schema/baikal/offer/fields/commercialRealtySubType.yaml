@@ -1,0 +1,8 @@
+commercialRealtySubType:
+  title: Назначение
+
+  type: select
+  dictionary:
+    $EXTEND: ../../../enum/CommercialRealtySubType
+
+  required: true

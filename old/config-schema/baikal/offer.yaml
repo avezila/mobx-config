@@ -1,0 +1,7 @@
+offer:
+  $SWITCH:
+    $BY: $user.company
+    vtb:
+      $EXTEND: ../vtb/offer
+    rzd:
+      $EXTEND: ../rzd/offer

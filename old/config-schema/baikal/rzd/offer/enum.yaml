@@ -1,0 +1,18 @@
+enum:
+  RealtyType:
+    $UPDATE:
+      OFFICE_COMMERCIAL: Административно-офисное
+      WAREHOUSE_COMMERCIAL: Производственно-складское
+      TRADE_COMMERCIAL: Торговля/общепит/бытовые услуги
+      FREE_COMMERCIAL: ПСН
+      BUILDING_COMMERCIAL: Здание
+      LAND_COMMERCIAL: ЗУ
+      OTHER_COMMERCIAL: Другое
+  Repairs:
+    $REPLACE:
+      GOOD: Хорошее
+      NEEDS_COSMETIC: Удовлетворительное
+      NEEDS_CAPITAL: Неудовлетворительное
+  SourceName:
+    $OMIT:
+    - vtb24

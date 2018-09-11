@@ -1,0 +1,8 @@
+repairs:
+  title: Состояние отделки
+
+  type: select
+  dictionary:
+    $EXTEND: ../../../enum/Repairs
+
+  required: true

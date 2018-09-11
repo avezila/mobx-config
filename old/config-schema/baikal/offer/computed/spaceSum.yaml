@@ -1,0 +1,5 @@
+spaceSum:
+  $JS: |
+    if (($offer.space1 + $offer.space2) !== $offer.space3) {
+      return 'Сумма площадей  a и b должна быть ровна площади с'
+    }

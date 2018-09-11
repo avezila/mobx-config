@@ -1,0 +1,30 @@
+context:
+  user:
+    company: vtb
+outputPath: offer
+output:
+  enum:
+    sourceName:
+      a: а
+      b: б
+      vtb: втб
+---
+context:
+  user:
+    company: rzd
+outputPath: offer
+output:
+  enum:
+    sourceName:
+      a: а
+      b: б
+      rzd: ржд
+---
+outputPath: offer
+output:
+  enum:
+    sourceName:
+      a: а
+      b: б
+      vtb: втб
+      rzd: ржд

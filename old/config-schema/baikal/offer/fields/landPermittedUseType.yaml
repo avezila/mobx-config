@@ -1,0 +1,8 @@
+landPermittedUseType:
+  title: Вид разрешенного использования
+
+  type: select
+  dictionary:
+    $EXTEND: ../../../enum/LandPermittedUseType
+
+  required: true

@@ -1,0 +1,12 @@
+pricePerMeterPerYear:
+  path: pricePerMeter
+  title:
+    $VALUE: Ставка арендной платы, руб./кв.м. в год
+    $SWITCH:
+      $BY: $offer.marketType
+      SALE: Цена предложения, руб./кв.м.
+
+  type: string
+  format: price
+
+  required: true

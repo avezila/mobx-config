@@ -1,0 +1,8 @@
+realtyType:
+  title: Тип объекта оценки
+
+  type: select
+  dictionary:
+    $EXTEND: /baikal/offer/enum/RealtyTypeShort
+
+  required: true

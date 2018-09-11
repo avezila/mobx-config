@@ -1,0 +1,9 @@
+SourceName:
+  cianCommercial: ЦИАН
+  domofondCommercial: Домофонд
+  $SWITCH:
+    $BY: $user.company
+    rzd:
+      rzd: РЖД
+    vtb24:
+      vtb24: ВТБ

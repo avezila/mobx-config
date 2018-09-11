@@ -1,0 +1,12 @@
+$SWITCH:
+  $BY: $user.company
+  rzd:
+    enum:
+      SourceName:
+        $OMIT:
+        - vtb24
+  vtb24:
+    enum:
+      SourceName:
+        $OMIT:
+        - rzd

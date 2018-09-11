@@ -1,0 +1,13 @@
+isLandIndustrial:
+  $SWITCH:
+    $BY: $offer.realtyType
+    BUILDING_COMMERCIAL:
+      $SWITCH:
+        $BY: $offer.commercialRealtySubType
+        STORAGE: true
+        $DEFAULT: false
+    $DEFAULT:
+      $SWITCH:
+        $BY: $offer.landClass
+        INDUSTRIAL: true
+        $DEFAULT: false

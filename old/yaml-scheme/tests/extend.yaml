@@ -1,0 +1,27 @@
+offer:
+  enum:
+    sourceName:
+      a: а
+      b: б
+      rzd: ржд
+      vtb: втб
+
+rzd:
+  offer:
+    enum:
+      sourceName:
+        $omit:
+          - vtb
+vtb:
+  offer:
+    enum:
+      sourceName:
+        $omit:
+          - rzd
+
+$switch:
+  $by: $user.company
+  rzd:
+    $extend: ./rzd
+  vtb:
+    $extend: ./vtb

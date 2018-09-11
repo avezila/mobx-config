@@ -1,0 +1,8 @@
+edit:
+  $SWITCH:
+    $BY: $offer.marketType
+
+    SALE:
+      $EXTEND: ../editByMarketType/sale
+    RENT:
+      $EXTEND: ../editByMarketType/rent

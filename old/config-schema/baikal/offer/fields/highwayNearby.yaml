@@ -1,0 +1,16 @@
+highwayNearby:
+  title: Расположение вблизи автомагистралей
+
+  type: select
+  dictionary:
+    true: Вблизи от крупных автодорог
+    false: На удалении от крупных автодорог
+
+  required: true
+  hide:
+    $SWITCH:
+      $BY: $offer.realtyType
+      LAND_COMMERCIAL:
+        $SWITCH:
+          $BY: ../../computed/isLandIndustrial
+          false: true

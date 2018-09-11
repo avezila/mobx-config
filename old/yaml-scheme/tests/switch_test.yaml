@@ -1,0 +1,22 @@
+context:
+  user:
+    company: vtb24
+output:
+  SourceName:
+    vtb24: ВТБ
+    cianCommercial: ЦИАН
+    domofondCommercial: Домофонд
+---
+context:
+  user:
+    company: rzd
+output:
+  SourceName:
+    rzd: РЖД
+    cianCommercial: ЦИАН
+    domofondCommercial: Домофонд
+---
+output:
+  SourceName:
+    cianCommercial: ЦИАН
+    domofondCommercial: Домофонд

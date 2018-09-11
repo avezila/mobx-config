@@ -1,0 +1,20 @@
+CommercialRealtySubType:
+  $SWITCH:
+    $BY: $offer.realtyType
+    BUILDING_COMMERCIAL:
+      BUSINESS_CENTER: Офис
+      SHOPPING_CENTER: Торговое
+      STORAGE: Производство/Склад
+
+  # SHOPPING_CENTER: Торговое
+  # STREET_RETAIL: STREET_RETAIL
+  # OTHER_TRADE: OTHER_TRADE
+  # BUSINESS_CENTER: Офис
+  # OTHER_OFFICE: OTHER_OFFICE
+  # STORAGE: Производство/Склад
+  # OTHER_STORAGE: OTHER_STORAGE
+  # COMMERCE: COMMERCE
+  # INDUSTRY: INDUSTRY
+  # IGC: IGC
+  # OTHER: OTHER
+  # NOT_DETERMINED: NOT_DETERMINED
