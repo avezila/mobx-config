@@ -1,0 +1,3 @@
+export enum ErrCode {
+  INVALID_NODE_SCHEME = "INVALID_NODE_SCHEME",
+}

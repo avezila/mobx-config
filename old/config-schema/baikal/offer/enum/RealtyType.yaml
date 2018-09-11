@@ -1,42 +1,38 @@
 RealtyType:
   $SWITCH:
     $BY: $filter.type
-
     FLAT:
-      RESALE:               Вторичное жилье
-      NEWBUILDING:          Новостройка
-      LAND:                 Участок
-      HOUSE:                Дом
-      DACHA:                Дача
-      TOWNHOUSE:            Таунхаус
-      CHALET:               Коттедж
-    
+      RESALE: Вторичное жилье
+      NEWBUILDING: Новостройка
+      LAND: Участок
+      HOUSE: Дом
+      DACHA: Дача
+      TOWNHOUSE: Таунхаус
+      CHALET: Коттедж
     COMMERCIAL:
-      OFFICE_COMMERCIAL:    Офисное помещение
-      TRADE_COMMERCIAL:     Торговое помещение
+      OFFICE_COMMERCIAL: Офисное помещение
+      TRADE_COMMERCIAL: Торговое помещение
       WAREHOUSE_COMMERCIAL: Производственно-складское помещение
-      FREE_COMMERCIAL:      Помещение свободного назначения
-      BUILDING_COMMERCIAL:  Здание
-      LAND_COMMERCIAL:      Земельный участок
-      OTHER_COMMERCIAL:     Другое
-      GARAGE_COMMERCIAL:    Гаражи
-    
-      CATERING_COMMERCIAL:            Общепит
-      HOUSEHOLD_SERVICES_COMMERCIAL:  Бытовые услуги
-      GAS_STATIONS_COMMERCIAL:        Азс/Агзс
-      TANK_FARM_COMMERCIAL:           Нефтебазы
-      HOTEL_COMMERCIAL:               Гостиница
-      PARKING_COMMERCIAL:             Автостоянка
-      AUTOMOTIVE_STORE_COMMERCIAL:    Автосалон
-      RECREATION_BASE_COMMERCIAL:     База отдыха
-
+      FREE_COMMERCIAL: Помещение свободного назначения
+      BUILDING_COMMERCIAL: Здание
+      LAND_COMMERCIAL: Земельный участок
+      OTHER_COMMERCIAL: Другое
+      GARAGE_COMMERCIAL: Гаражи
+      CATERING_COMMERCIAL: Общепит
+      HOUSEHOLD_SERVICES_COMMERCIAL: Бытовые услуги
+      GAS_STATIONS_COMMERCIAL: Азс/Агзс
+      TANK_FARM_COMMERCIAL: Нефтебазы
+      HOTEL_COMMERCIAL: Гостиница
+      PARKING_COMMERCIAL: Автостоянка
+      AUTOMOTIVE_STORE_COMMERCIAL: Автосалон
+      RECREATION_BASE_COMMERCIAL: База отдыха
 RealtyTypeShort:
-  $EXTEND: ../RealtyType
-  $UPDATE:
-
-    RESALE:               Вторичное
-    OFFICE_COMMERCIAL:    Офис
-    TRADE_COMMERCIAL:     Торговое
+  - $EXTEND: ../RealtyType
+  - $EXTEND: ../RealtyType2
+  - RESALE: Вторичное
+    OFFICE_COMMERCIAL: Офис
+    TRADE_COMMERCIAL: Торговое
     WAREHOUSE_COMMERCIAL: Производство/Склад
-    FREE_COMMERCIAL:      ПСН
-    LAND_COMMERCIAL:      ЗУ
+    FREE_COMMERCIAL: ПСН
+    LAND_COMMERCIAL: ЗУ
+  - 123
